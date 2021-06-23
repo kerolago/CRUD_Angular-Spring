@@ -49,7 +49,7 @@
                         <button class="btn btn-primary" role="button" (click)="create()" *ngIf="!cliente.id else elseBlock" [disabled]="!clienteForm.form.valid">Crear</button>
 
                         <ng-template #elseBlock>
-                            <button class="btn btn-primary" role="button" (click)="update(cliente)" [disabled]="!clienteForm.form.valid">Editarr</button>
+                            <button class="btn btn-primary" role="button" (click)="update(cliente)" [disabled]="!clienteForm.form.valid">Editar</button>
 
                         </ng-template>
 
